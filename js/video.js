@@ -43,9 +43,9 @@ window.addEventListener("load", function() {
 		else {
 			console.log("Going back to beginning");
 			video.currentTime = 0;
+			video.play();
 		}
 		console.log("New location " + video.currentTime);
-		video.play();
 	});
 
 	document.querySelector('#slider').addEventListener("change", function() {
